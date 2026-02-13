@@ -29,3 +29,7 @@ Engegar el servidor
 Torna al terminal del Visual Studio Code i escriu:
 
 node app.js
+
+I ara entrar
+
+http://localhost:3000/api/alumnes/matriculats-iaw
