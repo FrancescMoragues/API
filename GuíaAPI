@@ -24,3 +24,8 @@ Executar el servidor
 Inicia l'aplicació amb Node.js. Segons el fitxer app.js de la presentació, el servidor s'aixecarà en el port 3000:
 
 node app.js
+
+Engegar el servidor
+Torna al terminal del Visual Studio Code i escriu:
+
+node app.js
