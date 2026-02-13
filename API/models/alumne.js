@@ -8,4 +8,4 @@ class Alumne {
   }
 }
 
-module.exports = Alumne;
+module.exports = Alumne; // Molt important exportar-lo correctament [cite: 263]  
