@@ -1,0 +1,26 @@
+1. Instal·la Node.js i npm
+Executa aquest comandament al teu terminal per instal·lar el gestor de paquets necessari per a Express:
+
+sudo apt update && sudo apt install nodejs npm -y
+
+2. Verifica la instal·lació
+
+Un cop acabi, comprova que ja funcionen:
+
+node -v
+
+npm -v
+
+3. Torna a provar els comandaments del projecte
+Inicialitzar el projecte i instal·lar Express com demana la guia:
+
+# Inicialitza el projecte
+npm init -y
+
+# Instal·la Express (l'intermediari per intercomunicar programes)
+npm install express
+
+Executar el servidor
+Inicia l'aplicació amb Node.js. Segons el fitxer app.js de la presentació, el servidor s'aixecarà en el port 3000:
+
+node app.js
