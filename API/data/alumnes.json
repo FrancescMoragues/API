@@ -1,0 +1,23 @@
+[
+  {
+    "nom": "Oscar",
+    "cognom": "Cobo",
+    "anys": 28,
+    "cicle": "IFC31-C",
+    "moduls": ["IAW", "PIM", "SAD"]
+  },
+  {
+    "nom": "Silvia",
+    "cognom": "Cobo",
+    "anys": 38,
+    "cicle": "IFC31-C",
+    "moduls": ["PIM", "SAD"]
+  },
+  {
+    "nom": "Manuel",
+    "cognom": "Cobo",
+    "anys": 28,
+    "cicle": "IFC33-C",
+    "moduls": ["IAW", "PIM", "SAD"]
+  }
+]
