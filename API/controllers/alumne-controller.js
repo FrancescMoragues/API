@@ -3,7 +3,7 @@ const Alumne = require('../models/alumne');
 
 exports.llistaAlumnesMatriculats = async (req, res) => {
   // Llegeix el fitxer JSON
-  const alumnesJson = JSON.parse(fs.readFileSync('./src/data/alumnes.json', 'utf-8'));
+  const alumnesJson = JSON.parse(fs.readFileSync('./data/alumnes.json', 'utf-8'));
   
   // Transforma a objectes Alumne
   const alumnes = alumnesJson.map(alumne => 
@@ -23,3 +23,4 @@ exports.llistaAlumnesMatriculats = async (req, res) => {
   // Retorna el resultat
   return res.json(alumnesFiltrats);
 };
+
